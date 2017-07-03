@@ -3,6 +3,7 @@ import angularMeteor from 'angular-meteor';
 import uiRouter from 'angular-ui-router';
 
 import { name as Navigation } from '../components/navigation/navigation';
+import { name as Footer } from '../components/location-footer/footer';
 import { name as Signup } from '../pages/signup/signup';
 import { name as Login } from '../pages/login/login';
 import { name as Home } from '../pages/home/home';
@@ -19,6 +20,7 @@ export default angular.module(name, [
   uiRouter,
   'accounts.ui',
   Navigation,
+  Footer,
   Signup,
   Login,
   Home,
